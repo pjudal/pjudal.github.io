@@ -36,6 +36,16 @@
 		background-color: honeydew;
 	}
 
+	#header {
+		z-index: 1;
+		position: fixed;
+		width: 97.5%;
+		margin-top: -20px;
+		height: 60px;
+		background-color: #668284;
+		margin-bottom: 10px;
+	}
+
 	</style>
 
 </head>
@@ -43,13 +53,15 @@
 <body>
 
 	<div class="container">
-		<img src="pics/resume_pic.jpg" class="img-rounded" alt="Informal Resume Pic" style="float:right;width:115px;height:115px;">
 
 		<!-- Heading -->
-		<h4 align="center" class="top-margin"> <b>Paul John M. Judal</b></h4>
-		<h5 align="center">Ipil Residence Hall, Magsaysay St. UP Diliman, Quezon City</h5>
-		<h5 align="center">09264741223 | pjudal@gmail.com</h5>
-		<p></p>
+		<div id="header">
+			<img src="pics/resume_pic.jpg" class="img-rounded" alt="Informal Resume Pic" style="float:right;width:115px;height:115px;">
+			<h4 align="center" class="top-margin"> <b>Paul John M. Judal</b></h4>
+			<h5 align="center">Ipil Residence Hall, Magsaysay St. UP Diliman, Quezon City</h5>
+			<h5 align="center">09264741223 | pjudal@gmail.com</h5>
+			<p></p>
+		</div>
 
 		<!-- Linebreak -->
 		<hr>
